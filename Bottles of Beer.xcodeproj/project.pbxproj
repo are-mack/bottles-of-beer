@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C624511950766900D8AEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C624501950766900D8AEEB /* Foundation.framework */; };
+		F2C624531950766900D8AEEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C624521950766900D8AEEB /* CoreGraphics.framework */; };
+		F2C624551950766900D8AEEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C624541950766900D8AEEB /* UIKit.framework */; };
+		F2C6245B1950766900D8AEEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2C624591950766900D8AEEB /* InfoPlist.strings */; };
+		F2C6245D1950766900D8AEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C6245C1950766900D8AEEB /* main.m */; };
+		F2C624611950766900D8AEEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C624601950766900D8AEEB /* AppDelegate.m */; };
+		F2C624641950766900D8AEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C624621950766900D8AEEB /* Main.storyboard */; };
+		F2C624671950766900D8AEEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C624661950766900D8AEEB /* ViewController.m */; };
+		F2C624691950766900D8AEEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C624681950766900D8AEEB /* Images.xcassets */; };
+		F2C624701950766900D8AEEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C6246F1950766900D8AEEB /* XCTest.framework */; };
+		F2C624711950766900D8AEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C624501950766900D8AEEB /* Foundation.framework */; };
+		F2C624721950766900D8AEEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C624541950766900D8AEEB /* UIKit.framework */; };
+		F2C6247A1950766900D8AEEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2C624781950766900D8AEEB /* InfoPlist.strings */; };
+		F2C6247C1950766900D8AEEB /* Bottles_of_BeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C6247B1950766900D8AEEB /* Bottles_of_BeerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2C624731950766900D8AEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C624451950766900D8AEEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C6244C1950766900D8AEEB;
+			remoteInfo = "Bottles of Beer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2C6244D1950766900D8AEEB /* Bottles of Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bottles of Beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C624501950766900D8AEEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2C624521950766900D8AEEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2C624541950766900D8AEEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2C624581950766900D8AEEB /* Bottles of Beer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bottles of Beer-Info.plist"; sourceTree = "<group>"; };
+		F2C6245A1950766900D8AEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2C6245C1950766900D8AEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2C6245E1950766900D8AEEB /* Bottles of Beer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bottles of Beer-Prefix.pch"; sourceTree = "<group>"; };
+		F2C6245F1950766900D8AEEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2C624601950766900D8AEEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2C624631950766900D8AEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C624651950766900D8AEEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2C624661950766900D8AEEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2C624681950766900D8AEEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2C6246E1950766900D8AEEB /* Bottles of BeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bottles of BeerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C6246F1950766900D8AEEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F2C624771950766900D8AEEB /* Bottles of BeerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bottles of BeerTests-Info.plist"; sourceTree = "<group>"; };
+		F2C624791950766900D8AEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2C6247B1950766900D8AEEB /* Bottles_of_BeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bottles_of_BeerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C6244A1950766900D8AEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C624531950766900D8AEEB /* CoreGraphics.framework in Frameworks */,
+				F2C624551950766900D8AEEB /* UIKit.framework in Frameworks */,
+				F2C624511950766900D8AEEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C6246B1950766900D8AEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C624701950766900D8AEEB /* XCTest.framework in Frameworks */,
+				F2C624721950766900D8AEEB /* UIKit.framework in Frameworks */,
+				F2C624711950766900D8AEEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C624441950766900D8AEEB = {
+			isa = PBXGroup;
+			children = (
+				F2C624561950766900D8AEEB /* Bottles of Beer */,
+				F2C624751950766900D8AEEB /* Bottles of BeerTests */,
+				F2C6244F1950766900D8AEEB /* Frameworks */,
+				F2C6244E1950766900D8AEEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C6244E1950766900D8AEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C6244D1950766900D8AEEB /* Bottles of Beer.app */,
+				F2C6246E1950766900D8AEEB /* Bottles of BeerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C6244F1950766900D8AEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C624501950766900D8AEEB /* Foundation.framework */,
+				F2C624521950766900D8AEEB /* CoreGraphics.framework */,
+				F2C624541950766900D8AEEB /* UIKit.framework */,
+				F2C6246F1950766900D8AEEB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C624561950766900D8AEEB /* Bottles of Beer */ = {
+			isa = PBXGroup;
+			children = (
+				F2C6245F1950766900D8AEEB /* AppDelegate.h */,
+				F2C624601950766900D8AEEB /* AppDelegate.m */,
+				F2C624621950766900D8AEEB /* Main.storyboard */,
+				F2C624651950766900D8AEEB /* ViewController.h */,
+				F2C624661950766900D8AEEB /* ViewController.m */,
+				F2C624681950766900D8AEEB /* Images.xcassets */,
+				F2C624571950766900D8AEEB /* Supporting Files */,
+			);
+			path = "Bottles of Beer";
+			sourceTree = "<group>";
+		};
+		F2C624571950766900D8AEEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C624581950766900D8AEEB /* Bottles of Beer-Info.plist */,
+				F2C624591950766900D8AEEB /* InfoPlist.strings */,
+				F2C6245C1950766900D8AEEB /* main.m */,
+				F2C6245E1950766900D8AEEB /* Bottles of Beer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2C624751950766900D8AEEB /* Bottles of BeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C6247B1950766900D8AEEB /* Bottles_of_BeerTests.m */,
+				F2C624761950766900D8AEEB /* Supporting Files */,
+			);
+			path = "Bottles of BeerTests";
+			sourceTree = "<group>";
+		};
+		F2C624761950766900D8AEEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C624771950766900D8AEEB /* Bottles of BeerTests-Info.plist */,
+				F2C624781950766900D8AEEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C6244C1950766900D8AEEB /* Bottles of Beer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C6247F1950766900D8AEEB /* Build configuration list for PBXNativeTarget "Bottles of Beer" */;
+			buildPhases = (
+				F2C624491950766900D8AEEB /* Sources */,
+				F2C6244A1950766900D8AEEB /* Frameworks */,
+				F2C6244B1950766900D8AEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bottles of Beer";
+			productName = "Bottles of Beer";
+			productReference = F2C6244D1950766900D8AEEB /* Bottles of Beer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2C6246D1950766900D8AEEB /* Bottles of BeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C624821950766900D8AEEB /* Build configuration list for PBXNativeTarget "Bottles of BeerTests" */;
+			buildPhases = (
+				F2C6246A1950766900D8AEEB /* Sources */,
+				F2C6246B1950766900D8AEEB /* Frameworks */,
+				F2C6246C1950766900D8AEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C624741950766900D8AEEB /* PBXTargetDependency */,
+			);
+			name = "Bottles of BeerTests";
+			productName = "Bottles of BeerTests";
+			productReference = F2C6246E1950766900D8AEEB /* Bottles of BeerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C624451950766900D8AEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan McCawley";
+				TargetAttributes = {
+					F2C6246D1950766900D8AEEB = {
+						TestTargetID = F2C6244C1950766900D8AEEB;
+					};
+				};
+			};
+			buildConfigurationList = F2C624481950766900D8AEEB /* Build configuration list for PBXProject "Bottles of Beer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C624441950766900D8AEEB;
+			productRefGroup = F2C6244E1950766900D8AEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C6244C1950766900D8AEEB /* Bottles of Beer */,
+				F2C6246D1950766900D8AEEB /* Bottles of BeerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C6244B1950766900D8AEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C624691950766900D8AEEB /* Images.xcassets in Resources */,
+				F2C6245B1950766900D8AEEB /* InfoPlist.strings in Resources */,
+				F2C624641950766900D8AEEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C6246C1950766900D8AEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C6247A1950766900D8AEEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C624491950766900D8AEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C624671950766900D8AEEB /* ViewController.m in Sources */,
+				F2C624611950766900D8AEEB /* AppDelegate.m in Sources */,
+				F2C6245D1950766900D8AEEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C6246A1950766900D8AEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C6247C1950766900D8AEEB /* Bottles_of_BeerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C624741950766900D8AEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C6244C1950766900D8AEEB /* Bottles of Beer */;
+			targetProxy = F2C624731950766900D8AEEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2C624591950766900D8AEEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C6245A1950766900D8AEEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2C624621950766900D8AEEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C624631950766900D8AEEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2C624781950766900D8AEEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C624791950766900D8AEEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C6247D1950766900D8AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2C6247E1950766900D8AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C624801950766900D8AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bottles of Beer/Bottles of Beer-Prefix.pch";
+				INFOPLIST_FILE = "Bottles of Beer/Bottles of Beer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2C624811950766900D8AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bottles of Beer/Bottles of Beer-Prefix.pch";
+				INFOPLIST_FILE = "Bottles of Beer/Bottles of Beer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2C624831950766900D8AEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bottles of Beer.app/Bottles of Beer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bottles of Beer/Bottles of Beer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bottles of BeerTests/Bottles of BeerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F2C624841950766900D8AEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bottles of Beer.app/Bottles of Beer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bottles of Beer/Bottles of Beer-Prefix.pch";
+				INFOPLIST_FILE = "Bottles of BeerTests/Bottles of BeerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C624481950766900D8AEEB /* Build configuration list for PBXProject "Bottles of Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C6247D1950766900D8AEEB /* Debug */,
+				F2C6247E1950766900D8AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C6247F1950766900D8AEEB /* Build configuration list for PBXNativeTarget "Bottles of Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C624801950766900D8AEEB /* Debug */,
+				F2C624811950766900D8AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2C624821950766900D8AEEB /* Build configuration list for PBXNativeTarget "Bottles of BeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C624831950766900D8AEEB /* Debug */,
+				F2C624841950766900D8AEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C624451950766900D8AEEB /* Project object */;
+}
