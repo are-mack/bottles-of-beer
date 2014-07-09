@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    for (int bottlesOfBeer = 99; bottlesOfBeer <= 0; bottlesOfBeer--) {
+        NSLog(@"There are %i bottles of beer on the wall",bottlesOfBeer);
+    }
 }
 
 - (void)didReceiveMemoryWarning
